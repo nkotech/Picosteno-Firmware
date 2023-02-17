@@ -1,0 +1,53 @@
+{
+  "keyboard_name": "Nolltronics Picosteno",
+  "processor": "RP2040",
+  "bootloader": "rp2040",
+  "manufacturer": "Noll Electronics LLC",
+  "url": "",
+  "maintainer": "Noll Electronics LLC",
+  "usb": {
+    "vid": "0xFEED",
+    "pid": "0x3721",
+    "device_version": "1.0.0"
+  },
+  "matrix_pins": {
+    "direct": [
+      [ null, "GP4",  null,   null,   null,   null,   null,   null,   null, "GP26",   null],
+      ["GP0", "GP2", "GP5",  "GP7",  "GP9", "GP16", "GP14", "GP18", "GP20", "GP22", "GP28"],
+      ["GP1", "GP3", "GP6",  "GP8",   null,   null, "GP15", "GP17", "GP19", "GP21", "GP27"],
+      [ null, null,   null, "GP10", "GP11", "GP12", "GP13",   null,   null,   null,   null]
+    ]
+  },
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        {"x": 1, "y": 0, "matrix": [0, 1]},
+        {"x": 9, "y": 0, "matrix": [0, 9]},
+        {"x": 0, "y": 1, "matrix": [1, 0]},
+        {"x": 1, "y": 1, "matrix": [1, 1]},
+        {"x": 2, "y": 1, "matrix": [1, 2]},
+        {"x": 3, "y": 1, "matrix": [1, 3]},
+        {"x": 4, "y": 1, "matrix": [1, 4]},
+        {"x": 5, "y": 1, "matrix": [1, 5]},
+        {"x": 6, "y": 1, "matrix": [1, 6]},
+        {"x": 7, "y": 1, "matrix": [1, 7]},
+        {"x": 8, "y": 1, "matrix": [1, 8]},
+        {"x": 9, "y": 1, "matrix": [1, 9]},
+        {"x": 10, "y": 1, "matrix": [1, 10]},
+        {"x": 0, "y": 2, "matrix": [2, 0]},
+        {"x": 1, "y": 2, "matrix": [2, 1]},
+        {"x": 2, "y": 2, "matrix": [2, 2]},
+        {"x": 3, "y": 2, "matrix": [2, 3]},
+        {"x": 6, "y": 2, "matrix": [2, 6]},
+        {"x": 7, "y": 2, "matrix": [2, 7]},
+        {"x": 8, "y": 2, "matrix": [2, 8]},
+        {"x": 9, "y": 2, "matrix": [2, 9]},
+        {"x": 10, "y": 2, "matrix": [2, 10]},
+        {"x": 3, "y": 3, "matrix": [3, 3]},
+        {"x": 4, "y": 3, "matrix": [3, 4]},
+        {"x": 5, "y": 3, "matrix": [3, 5]},
+        {"x": 6, "y": 3, "matrix": [3, 6]}
+      ]
+    }
+  }
+}
