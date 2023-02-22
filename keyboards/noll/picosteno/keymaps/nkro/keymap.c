@@ -21,8 +21,8 @@
 #include QMK_KEYBOARD_H
 
 enum layers{
-  STENO,
   NKRO,
+  STENO,
   QWERTY,
   QWERTY_CAPS,
   SYMBOL
