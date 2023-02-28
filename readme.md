@@ -1,7 +1,7 @@
 Picosteno
 ===
 
-![Picosteno](https://nolltronics.com/wp-content/uploads/2023/01/DSC03585-assembled-front.png)
+![Picosteno](https://nolltronics.com/wp-content/uploads/2023/02/Picosteno-Assembled-not-square-1024x644.png)
 
 * Keyboard Maintainer: [Nathan Olivares](https://github.com/nkotech)
 * Hardware Supported: Picosteno v1.1.0
